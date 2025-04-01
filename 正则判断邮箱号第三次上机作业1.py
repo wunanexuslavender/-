@@ -1,5 +1,5 @@
 import re
-p=re.compile('^[a-')
+p=re.compile('^[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,10}.(com)$',re.I)
 while True:
     s=input('请输入你要判断的教育邮箱(输入0退出程序):\n')
     if s=='0':    #这里0要加引号
