@@ -5,7 +5,7 @@ def pr(func):       #用于装饰器的函数函数名若为LIANHUA()，则用�
         print(f'{x}的平方为{y}')
     return lianhua     #这里return的位置
 
-@pr
+@pr             #覆盖
 def square(x):
     return x*x
 
