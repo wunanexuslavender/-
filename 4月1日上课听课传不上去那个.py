@@ -58,10 +58,10 @@
 #print(datetime.fromtimestamp(t))  #将timestamp转化为datetime  fromtimestamp前面加utc化为国际单位
 #print(now.strftime('%y %Y %m %d %h %I %M %S %a %A %b %B'))  #
 
-import  sys
+#import  sys
 #print(dir(sys))      #dir 是一个自带函数，用于展示所带方法
 #print(sys.path)
-   ssssssd
+
 
 
 
